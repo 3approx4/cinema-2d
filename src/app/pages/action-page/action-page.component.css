@@ -51,6 +51,8 @@
     color: whitesmoke;
     font-size: 5em;
 
+    font-family: 'Retro Cinema Heading';
+
     text-shadow: 6px 6px black;
 }
 .page-content div button {
@@ -64,4 +66,6 @@
     
     color: whitesmoke;
     background-color: black;
+
+    font-family: 'Casual';
 }

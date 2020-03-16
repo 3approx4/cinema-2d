@@ -3,3 +3,13 @@ html, body {
     height: 100%;
     margin: 0;
 }
+
+@font-face{
+    font-family: "Retro Cinema Heading";
+    src: url("assets/fonts/budmo.ttf");
+}
+
+@font-face{
+    font-family: "Casual";
+    src: url("assets/fonts/macarena_cyr.ttf");
+}
