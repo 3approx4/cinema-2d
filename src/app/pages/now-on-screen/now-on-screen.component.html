@@ -1,2 +1,13 @@
 <app-menu></app-menu>
-<img src="assets/images/prototypes/1.png">
+<!-- <img src="assets/images/prototypes/1.png"> -->
+
+<div class="cinema-container">
+    <div class="cinema-card" *ngFor="let cinema of cinemas">
+        <div><img [src]="cinema.image"></div>
+        <div style="padding: 0px 12px;">
+            <h3>{{ cinema.name }}</h3>
+            <div>{{ cinema.description }}</div>
+            <button>Go</button>
+        </div>
+    </div>
+</div>
