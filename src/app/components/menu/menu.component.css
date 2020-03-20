@@ -1,0 +1,21 @@
+.mainMenu {
+    background-color: var(--dark);
+    color: white;
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr auto 1fr 1fr;
+}
+.mainMenu div {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.mainMenu div:hover {
+    background-color: darkred;
+}
+.mainMenu img {
+    width: 10vw;
+    margin: 0px 30px;
+}
